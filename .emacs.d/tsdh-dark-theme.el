@@ -1,0 +1,31 @@
+(deftheme tsdh-dark
+  "Created 2016-06-04.")
+
+(custom-theme-set-faces
+ 'tsdh-dark
+ '(error ((t (:foreground "deep pink" :weight bold))))
+ '(font-lock-builtin-face ((t (:foreground "chartreuse2"))))
+ '(font-lock-comment-face ((t (:foreground "peru"))))
+ '(font-lock-constant-face ((t (:foreground "dodger blue"))))
+ '(font-lock-doc-face ((t (:foreground "indian red"))))
+ '(font-lock-function-name-face ((t (:foreground "spring green"))))
+ '(font-lock-keyword-face ((t (:foreground "light sea green" :weight bold))))
+ '(font-lock-preprocessor-face ((t (:foreground "cornflower blue"))))
+ '(font-lock-string-face ((t (:foreground "light salmon"))))
+ '(font-lock-type-face ((t (:foreground "medium purple"))))
+ '(font-lock-variable-name-face ((t (:foreground "yellow green"))))
+ '(font-lock-warning-face ((t (:foreground "hot pink"))))
+ '(header-line ((t (:inverse-video t :box (:line-width -1 :color "red" :style released-button)))))
+ '(highlight ((t (:background "sea green"))))
+ '(menu ((t (:background "gray30" :foreground "gray70"))))
+ '(mode-line ((t (:background "gray30" :box (:line-width 1 :color "red") :family "DejaVu Sans"))))
+ '(mode-line-inactive ((t (:inherit mode-line :foreground "dark gray"))))
+ '(region ((t (:background "SeaGreen4"))))
+ '(scroll-bar ((t (:background "gray20" :foreground "dark turquoise"))))
+ '(secondary-selection ((t (:background "#333366" :foreground "#f6f3e8"))))
+ '(show-paren-match ((t (:background "DeepSkyBlue4"))))
+ '(show-paren-mismatch ((t (:background "dark magenta"))))
+ '(widget-field ((t (:box (:line-width 2 :color "grey75" :style pressed-button)))))
+ '(default ((t (:background "gray20" :foreground "white smoke")))))
+
+(provide-theme 'tsdh-dark)
